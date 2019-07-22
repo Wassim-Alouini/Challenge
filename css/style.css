@@ -487,9 +487,11 @@
     font-weight:bold;
     box-shadow: 0 0 0 0 gray;
     transition:0.1s;
+    z-index:5;
 }
 #bestbuttonever:hover{
-    box-shadow : 0 5 0 0 rgb(201, 197, 197);
+    -webkit-box-shadow: 10 10 10 10 black;
+    box-shadow:10 10 10 10 black;
     top:66.5%;
 }
 #sec2{
@@ -543,7 +545,7 @@
     background-color:rgba(61, 144, 212, 0);
     width:376px;
     height: 265px;
-    top:1355px;
+    top:1421px;
     
 }
 
@@ -570,16 +572,16 @@
     background-color:rgba(69, 207, 110, 0);
     width:375px;
     height: 265px;
-    left:35.3%;
-    top:1355px;
+    left:36%;
+    top:1421px;
 }
 #filterp{
     position:absolute;
     background-color:rgba(255, 192, 203, 0);
     width:375px;
     height: 265px;
-    left:68.75%;
-    top:1355px;
+    left:69.2%;
+    top:1421px;
 }
 #filterb:hover{
     background-color:rgba(61, 144, 212, 0.568);
