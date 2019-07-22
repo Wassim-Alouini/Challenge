@@ -354,6 +354,7 @@
     padding-right:10%;
     padding-left:10%;
     place-items:center;
+    transition:0.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
@@ -379,6 +380,12 @@
     font-family: verdana;
     font-weight: bold;
     color:rgb(63, 62, 62);
+    transition:0.5s;
+}
+#leftsec button:hover{
+    background-color:white;
+    color:rgb(233, 201, 59);
+
 }
 #rightsec{
     width:80%;
@@ -390,6 +397,7 @@
     padding-right:10%;
     padding-left:10%;
     place-items:center;
+    transition:0.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #rightsec h2{
@@ -414,6 +422,11 @@
     font-family: verdana;
     font-weight: bold;
     color:rgb(63, 62, 62);
+    transition:0.5s;
+}
+#rightsec button:hover{
+    background-color:white;
+    color:rgb(63, 156, 243);
 }
 #midsec h2{
     color:white;
@@ -437,6 +450,11 @@
     font-family: verdana;
     font-weight: bold;
     color:rgb(63, 62, 62);
+    transition:0.5s;
+}
+#midsec button:hover{
+    background-color:white;
+    color:rgb(64, 241, 159);
 }
 #midsec{
     width:100%;
@@ -448,6 +466,7 @@
     padding-right:10%;
     padding-left:10%;
     place-items:center;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #image{
